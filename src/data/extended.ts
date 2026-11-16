@@ -7,8 +7,8 @@
 export const milestones = [
   { when: "EARLY YEARS", title: "A curiosity for machines", description: "Devices kaise kaam karte hain? Electronics aur hardware ko samajhne ki curiosity se journey shuru hui." },
   { when: "CLASS 7", title: "My first lines of code", description: "Mama Jaswant Goswami ne coding introduce karayi. W3Schools aur Apna College se HTML, CSS aur programming basics explore kiye." },
-  { when: "SCHOOL YEARS", title: "Science exhibitions & teams", description: "PM SHRI GSS mein science models, group projects aur AI, cybersecurity aur game development par presentations." },
-  { when: "EARLY WEB", title: "A webpage about friends", description: "School-time doston aur shared memories par banaya personal webpage, Netlify par hosted. Live link abhi add karna hai." },
+  { when: "SCHOOL YEARS", title: "Science exhibitions & teams", description: "PM SHRI GSSS Veerwara mein science models, group projects aur AI, cybersecurity aur game development par presentations." },
+  { when: "EARLY WEB", title: "A webpage about friends", description: "School-time doston aur shared memories par banaya personal webpage, Netlify par hosted; live website ko portfolio se link kiya hai." },
   { when: "2026", title: "Laadli Shringaar goes live", description: "Meri mother ke jewellery brand ke liye product storefront, backend APIs, cart aur WhatsApp enquiry journey build ki." },
   { when: "ONGOING", title: "Building Buddy AI", description: "Python aur Ollama par local-first desktop assistant: voice modules, conversation orchestration aur persistent memory." },
   { when: "WHAT'S NEXT", title: "A wider engineering journey", description: "AI, electronics, space technology, independent research aur real-world products mein skills deepen karna." },
@@ -50,7 +50,7 @@ export const spaceTopics = [
 export const achievementsDetailed = [
   { n: "01", type: "OLYMPIAD", title: "Indian Space Olympiad", highlight: "GRADE AIR 48 / ADVANCE AIR 95", description: "Indian Space Olympiad mein reported All India Grade Rank 48 aur Advance Rank 95. Certificate mila hai; public image abhi upload nahi hui.", evidence: "Certificate photo pending" },
   { n: "02", type: "SCHOOL SCIENCE", title: "Science exhibitions", highlight: "AROUND 6–7 EXHIBITIONS", description: "School science exhibitions mein multiple models present kiye. User ke anusar do exhibitions mein placement nahi aayi, baaki mein first position mili.", evidence: "Trophy / result images pending" },
-  { n: "03", type: "LEADERSHIP", title: "Science project teams", highlight: "TEAM-LEAD EXPERIENCE", description: "PM SHRI GSS ke school science activities mein group-project teams ko lead kiya aur exhibitions ke liye models organize kiye.", evidence: "School experience (self-reported)" },
+  { n: "03", type: "LEADERSHIP", title: "Science project teams", highlight: "TEAM-LEAD EXPERIENCE", description: "PM SHRI GSSS Veerwara ke school science activities mein group-project teams ko lead kiya aur exhibitions ke liye models organize kiye.", evidence: "School experience (self-reported)" },
   { n: "04", type: "PRESENTATIONS", title: "Technology talks in school", highlight: "AI / CYBERSECURITY / GAME DEV", description: "Classes 9–10 ke aas-paas technology topics par presentations; Class 7 ke aas-paas Republic Day speech bhi di.", evidence: "Presentation records pending" },
   { n: "05", type: "ACADEMICS", title: "Class 10 result", highlight: "87%", description: "Class 10 studies ke saath electronics, experiments, science models aur self-directed coding explore ki.", evidence: "Academic document not uploaded" },
   { n: "06", type: "NCC", title: "Republic Day selection", highlight: "SELECTED FOR TROOP-LEAD ROLE", description: "NCC Republic Day activity ke troop-leader role ke liye selection hua tha, lekin final role perform nahi kiya.", evidence: "Selection claim (self-reported)" },
@@ -95,7 +95,7 @@ export const projectStories: Record<string, { role: string; challenge: string; a
     challenge: "HTML/CSS seekhte waqt ek real page banana tha jo school-time friendship memories ko express kar sake.",
     approach: "Basic web elements, layouts aur personal content ke saath experiment kiya. Ye friends ke baare mein webpage tha, meetup application nahi.",
     architecture: ["HTML and CSS fundamentals", "Simple personal webpage structure", "Originally hosted using Netlify"],
-    outcome: "Early self-made web page aur practical learning milestone. Current live URL abhi available nahi hai.",
-    next: "Public Netlify URL milne par Visit Website button add hoga; friend details permission ke bina expand nahi ki jayengi.",
+    outcome: "Early self-made web page aur practical learning milestone. Public Netlify website portfolio mein linked hai.",
+    next: "Live website link available hai. Future mein screenshots aur improvements add kiye ja sakte hain; friend details permission ke bina expand nahi ki jayengi.",
   },
 };

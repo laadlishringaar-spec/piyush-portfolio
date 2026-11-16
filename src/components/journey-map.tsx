@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
 const stops = [
-  { name: "RAJASTHAN", small: "HOMETOWN", info: "Bhairwada, Rajasthan — jahaan se meri personal journey shuru hoti hai.", left: "12%", top: "69%" },
+  { name: "VEERWARA", small: "RAJASTHAN / HOMETOWN", info: "Veerwara, Rajasthan — jahaan se meri personal journey shuru hoti hai.", left: "12%", top: "69%" },
   { name: "JAIPUR", small: "A CHAPTER", info: "Jaipur — education aur exploration journey ka ek important chapter.", left: "48%", top: "25%" },
   { name: "NASHIK", small: "CURRENT CHAPTER", info: "Nashik — learning, software projects aur naye experiments ka current chapter.", left: "85%", top: "66%" },
 ];
 export default function JourneyMap() {
   const [selected, setSelected] = useState(2);
   return <div className="journey-component">
-    <div className="route-visual" role="group" aria-label="Life journey from Rajasthan via Jaipur to Nashik. Schematic, not navigational.">
+    <div className="route-visual" role="group" aria-label="Life journey from Veerwara, Rajasthan via Jaipur to Nashik. Schematic, not navigational.">
       <div className="route-grid" aria-hidden="true" />
       <svg className="route-svg" viewBox="0 0 1000 360" preserveAspectRatio="none" aria-hidden="true">
         <path className="route-dashed" d="M120 248 C 195 248, 170 132, 282 164 S 385 90, 480 90 C 598 90, 592 256, 702 237 S 784 238, 850 238"/>
@@ -19,6 +19,6 @@ export default function JourneyMap() {
       </button>)}
       <span className="route-note">ILLUSTRATED JOURNEY / NOT A GPS MAP</span>
     </div>
-    <div className="route-description" aria-live="polite"><span className="eyebrow">SELECTED CHAPTER / {String(selected+1).padStart(2,"0")}</span><strong>{stops[selected].name}</strong><p>{stops[selected].info}</p></div>
+    <div className="route-description" aria-live="polite"><span className="eyebrow">SELECTED CHAPTER / {String(selected+1).padStart(2,"0")}</span><strong>{selected === 0 ? "VEERWARA, RAJASTHAN" : stops[selected].name}</strong><p>{stops[selected].info}</p></div>
   </div>;
 }

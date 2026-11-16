@@ -6,7 +6,7 @@ export const identity = {
   email: null as string | null, // Add a dedicated public professional email later.
   github: null as string | null, // Add your final personal GitHub later.
   reddit: null as string | null,
-  firstProjectUrl: null as string | null, // Netlify friends website URL later.
+  firstProjectUrl: "https://piyush-friends.netlify.app/" as string | null, // User-provided public Friends Webpage URL.
   laadliUrl: "https://laadli-shringaar-eight.vercel.app/" as string | null, // Confirmed live project URL.
 };
 
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     short: "Doston ke baare mein banaya gaya ek personal webpage — early web development journey ka part.",
     intro: "HTML aur CSS ke saath early experiments ke baad banaya gaya ek personal friends webpage. School-time friendships aur memories se inspired tha. Ye koi full-featured meetup platform nahi tha; ye web fundamentals aur personal creativity explore karne ka step tha.",
     focus: ["HTML", "CSS", "Web Fundamentals", "Netlify"],
-    highlights: ["Early hands-on learning with web layouts", "Personal content and front-end experimentation", "Friends website URL will be added after it is shared"],
+    highlights: ["Early hands-on learning with web layouts", "Personal content and front-end experimentation", "Public Netlify website linked from the portfolio"],
     lessons: "Chhoti experiments se real pages tak jaana aur khud build karke seekhna.",
     href: identity.firstProjectUrl,
   },
